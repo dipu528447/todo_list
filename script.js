@@ -29,6 +29,9 @@ function action_close(event){
     event.target.parentNode.parentNode.remove();
     }
 }
+function mode(){
+    document.body.classList.toggle('dark');
+}
 function action_done(event){
     console.log(event.target.parentNode.parentNode)
     event.target.parentNode.parentNode.style.textDecoration= "line-through 3px black"
