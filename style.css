@@ -6,6 +6,12 @@
 #toggle {
     cursor: pointer;
     font-size: 25px;
+    
+}
+.div_toggle{
+    display: block;
+    position:absolute;
+    right:0
 }
 .dark {
     color: #ffffff;
